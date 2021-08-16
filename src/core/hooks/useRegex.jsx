@@ -1,28 +1,12 @@
-import {useState, useCallback} from 'react'
-import regexgen from 'regexgen'
+import {useContext} from 'react'
+import {RegexProvider} from 'core/providers'
 
 export default function useRegex() {
-  const [phrases, setPhrases] = useState([])
+  const context = useContext(RegexProvider.Context)
 
-  const getRegex = useCallback(() => {
-    if (phrases.length === 0) {
-      return
-    }
-    return regexgen(phrases).toString()
-  }, [phrases])
-
-  const add = (phrase) => {
-    if (!phrase) {
-      return
-    }
-    if (phrases.length === 0) {
-      setPhrases([phrase])
-    }
-
-    setPhrases([...phrases, phrase])
+  if (!context) {
+    throw new Error('This hook must be wrapped by RegexProvider.')
   }
 
-  const clear = () => setPhrases([])
-
-  return [getRegex, {add, clear}]
+  return context
 }

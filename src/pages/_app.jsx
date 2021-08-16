@@ -1,10 +1,12 @@
 import '../styles/globals.css'
-import {ThemeProvider} from 'core/providers'
+import {ThemeProvider, RegexProvider} from 'core/providers'
 
 export default function MyApp({Component, pageProps}) {
   return (
     <ThemeProvider>
-      <Component {...pageProps} />
+      <RegexProvider>
+        <Component {...pageProps} />
+      </RegexProvider>
     </ThemeProvider>
   )
 }
