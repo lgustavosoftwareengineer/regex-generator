@@ -2,7 +2,7 @@
    <img src="./.github/logo.png" width="150"/>
 </p>
 
-<h1 align="center"> 🤖 Gerador de Expressões regulares - RegexBuilder</h1>
+<h1 align="center"> 🤖 Gerador de Expressões regulares - RegexGenerator</h1>
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/luiz-gustavo-56146b1a5/">
@@ -29,7 +29,7 @@
 </p>
 
 <div align="center">
-  <sub>O projeto RegexBuilder. Foi construído com ❤︎ por
+  <sub>O projeto RegexGenerator. Foi construído com ❤︎ por
     <a href="https://github.com/tonicprism">Luiz Gustavo</a>
   </sub>
 </div>
