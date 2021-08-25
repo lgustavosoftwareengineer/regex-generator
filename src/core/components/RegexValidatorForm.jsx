@@ -14,7 +14,7 @@ const RegexValidatorForm = ({isOpen, regex}) => {
 
   const getTitle = () => {
     if (!inputValue) {
-      return '🤖 Aqui você testa a sua expressão regular gerada'
+      return `🤖 Bora testar a ER ${regex} ?`
     }
 
     return isMatchEqualsToInputValue
