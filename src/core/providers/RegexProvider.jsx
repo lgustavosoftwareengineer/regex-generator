@@ -28,13 +28,19 @@ export default function RegexProvider({children}) {
     setWords([...words, word])
   }
 
+  const remove = (index) => {
+    const newWords = words.filter((_, letterIndex) => letterIndex !== index)
+
+    setWords(newWords)
+  }
+
   const clear = () => setWords([])
 
   return (
     <RegexContext.Provider
       value={[
         {getRegex, words},
-        {add, clear},
+        {add, clear, remove},
       ]}>
       {children}
     </RegexContext.Provider>
