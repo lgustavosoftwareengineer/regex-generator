@@ -39,11 +39,11 @@ const RegexValidatorForm = ({isOpen, regex}) => {
   return (
     <Fade in={isOpen}>
       <Box p="40px" mt="4" rounded="md" shadow="md">
-        <Text fontSize="2xl" color={getColor()}>
+        <Text fontSize="1.5rem" color={getColor()}>
           {getTitle()}
         </Text>
         <Input
-          fontSize="2xl"
+          fontSize="1.5rem"
           color={getColor()}
           isInvalid={getIsValid()}
           value={inputValue}
