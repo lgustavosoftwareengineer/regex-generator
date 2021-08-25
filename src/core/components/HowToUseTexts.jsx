@@ -16,7 +16,7 @@ const HowToUseTexts = (props) => {
       </Text>
       <Text>
         <li>
-          Se quiser deletar a palavra adicionado da lista só apertar no botão{' '}
+          Se quiser remover a palavra adicionada na lista só apertar no botão{' '}
           <IconButton icon={<CloseIcon />} bg="transparent" />.
         </li>
       </Text>
