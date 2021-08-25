@@ -41,7 +41,7 @@ export default function HomePage() {
       <Title mt="4" />
       <HowToUseTexts />
 
-      <Card width="38vw" px="20">
+      <Card width="100%" px="20">
         <Flex flexDirection="column">
           <Text as="samp" fontSize="2xl" my="4">
             {regexValue ?? 'Bora criar umas expressões?'}
