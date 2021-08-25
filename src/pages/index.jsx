@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Head from 'next/head'
 import {
   Flex,
   Input,
@@ -38,10 +39,22 @@ export default function HomePage() {
 
   return (
     <VStack spacing="6" px="10">
+      <Head>
+        <title>Gerador de expressões regulares</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        icon
+      </Head>
       <Title mt="4" />
       <HowToUseTexts />
 
-      <Card width="100%" px="5">
+      <Card
+        width={[
+          '100%', // 0-30em
+          '100%', // 30em-48em
+          '100%', // 48em-62em
+          '34vw', // 62em+
+        ]}
+        px="5">
         <Flex flexDirection="column">
           <Text as="samp" fontSize="2xl" my="4">
             {regexValue ?? 'Bora criar umas expressões?'}
