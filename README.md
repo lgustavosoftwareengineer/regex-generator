@@ -22,7 +22,7 @@
    </a>
 </p>
 
-> 🤖 O **Gerador de Expressões regulares** é uma aplicação web que gera expressões regulares a partir do que o usuário vai digitando
+> 🤖 O **Gerador de Expressões regulares** é uma aplicação web que gera e valida expressões regulares a partir do que o usuário digita.
 
 <p align="center">
     <a href="README-pt.md">Português</a>
@@ -36,7 +36,7 @@
 
 # :pushpin: Tabela de Conteúdo
 
-- [O que são expressões regulares?](#o-que-são-expressões-regulares?)
+- [O que são expressões regulares?](#o-que-são-expressões-regulares)
 - [Tecnologias](#computer-tecnologias)
 - [Como fazer o projeto funcionar na sua máquina](#construction_worker-how-to-run)
 
