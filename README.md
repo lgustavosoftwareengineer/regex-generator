@@ -39,6 +39,7 @@
 - [O que são expressões regulares?](#o-que-são-expressões-regulares)
 - [Tecnologias](#computer-tecnologias)
 - [Como fazer o projeto funcionar na sua máquina](#construction_worker-how-to-run)
+- [Testar o projeto](https://gerador-de-regex.vercel.app/)
 
 # 📸 Screenshots
 
